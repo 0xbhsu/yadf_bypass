@@ -18,7 +18,7 @@ class Exploit:
     Bypass PHP disable_functions exploit creation tool
     -i/--input --> Revershe shell file (example: meterpreter/sh file)
     -o/--output --> Output file (example: malicious.php)
-    Usage example: ./create_exploit.py --input revshell.sh --output malicious.php
+    Usage example: ./yadf.py --input revshell.sh --output malicious.php
 '''
 
     def _banner(self):
